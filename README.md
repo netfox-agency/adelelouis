@@ -44,7 +44,7 @@ Câblé aussi : **les conversions Google Ads** (compte 154-409-0091, gtag charg�
 | # | Quoi | Où |
 |---|------|-----|
 | 1 | Domaine (proposition : `https://adelelouis-toiture.fr`) | balises canonical, og, schema |
-| 2 | Clé Web3Forms (`REMPLACER_PAR_VOTRE_CLE_WEB3FORMS`) | `index.html`, champ caché des 2 formulaires |
+| 2 | ~~Clé Web3Forms~~ **FAIT le 2026-09-04** (clé `a503fdc2…` posée dans les 2 formulaires) | `index.html` |
 | 3 | Mentions légales + bloc légal du footer (retirés, voir ci-dessous) | `index.html`, page à recréer |
 | 4 | Prix (affichés « Sur devis ») | section `#prix` de `index.html` |
 
