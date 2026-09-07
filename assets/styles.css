@@ -79,7 +79,7 @@ h1 em,h2 em{font-family:var(--serif);font-style:italic;font-weight:400;letter-sp
 .btn svg{width:17px;height:17px;flex:0 0 auto}
 .btn:active{transform:scale(.985)}
 .btn-lg{padding:16px 26px;font-size:16.5px}
-.btn-sm{padding:10px 16px;font-size:14px}
+.btn-sm{padding:10px 16px;font-size:14px;min-height:44px}
 .btn-block{width:100%}
 
 .btn-accent{
@@ -446,7 +446,7 @@ a.fc:hover{transform:translateY(-2px);box-shadow:var(--shadow-hi),inset 0 0 0 1p
 }
 @media (max-width:400px){
   .brand-txt b{font-size:13.5px}
-  .btn-sm{padding:9px 13px;font-size:13px}
+  .btn-sm{padding:9px 13px;font-size:13px;min-height:44px}
 }
 
 @media (prefers-reduced-motion:reduce){
