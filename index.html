@@ -68,9 +68,13 @@ window.ADS_CONVERSION = 'AW-18401220120/ARwzCM62vuUcEJisscZE';        /* « Dema
 window.ADS_CONVERSION_APPEL = 'AW-18401220120/Rq2CCKC4vuUcEJisscZE';  /* « Appel depuis le site » */
 </script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18401220120"></script>
-<!-- GTM optionnel (désactivé tant que l'ID est un placeholder) -->
+<!-- GTM : conteneur adelelouis-toiture.fr. Il se charge APRÈS le default
+     Consent Mode ci-dessus, donc tout tag ajouté dans GTM respecte le consentement.
+     ⚠️ NE PAS créer de balise de conversion Google Ads dans ce conteneur : les
+     conversions partent déjà en direct via gtag (doublon = double comptage).
+     Le dataLayer expose generate_lead, phone_call et form_start pour GA4. -->
 <script>
-window.GTM_ID = 'GTM-XXXXXXX';
+window.GTM_ID = 'GTM-T5NTVL9B';
 (function(w,d,s,l,i){if(i.indexOf('XXXX')!==-1)return;w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
 var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;
 j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer',window.GTM_ID);
@@ -141,6 +145,10 @@ j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefo
 </script>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T5NTVL9B"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 <!-- ================= HEADER ================= -->
 <header class="topbar">
