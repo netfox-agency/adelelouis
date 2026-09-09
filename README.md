@@ -131,7 +131,7 @@ GA4 plus tard.
 
 **La campagne est CRÉÉE (2026-08-21), tout en PAUSED**, via
 `~/ads-write/creer-campagnes-adele.py` sur le compte 154-409-0091 :
-`Recherche_Demoussage_Eure`, 15 €/j, Maximiser les clics plafonné à 3,00 €,
+`Recherche_Demoussage_Eure`, 10 €/j (démarrage voulu par le client, 15 €/j prévu ensuite), Maximiser les clics plafonné à 3,00 €,
 rayon **60 km autour de Criquebeuf-sur-Seine** (siège du client, 20 km de Rouen) en présence uniquement, langue FR, lun-sam 8-19,
 4 groupes (Demoussage · Nettoyage toiture · Hydrofuge et traitement · Prix et devis),
 52 mots-clés exact/expression (≥10 par groupe, Rouen/Elbeuf inclus), 61 négatifs en 4 listes partagées, 1 RSA par groupe,
