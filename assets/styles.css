@@ -467,3 +467,10 @@ a.fc:hover{transform:translateY(-2px);box-shadow:var(--shadow-hi),inset 0 0 0 1p
 @media (max-width:760px){
   .consent-bar{left:10px;right:10px;max-width:none;bottom:78px}
 }
+
+/* Mobile : les 2 tags de la photo hero ne peuvent plus se chevaucher
+   (le droit passe en haut de l'image, tailles réduites) */
+@media (max-width:760px){
+  .tag{font-size:10.5px;padding:6px 11px;letter-spacing:.1em}
+  .tag-right{bottom:auto;top:12px}
+}
